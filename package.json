@@ -1,0 +1,18 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --spec C:\\Users\\Public\\cypressautomation\\cypress\\e2e\\HifiBazaar.cy.js",
+    "runtests": "npm run test --"
+  },
+  "author": "Amit",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.2.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.6.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
